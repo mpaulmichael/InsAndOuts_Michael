@@ -1,9 +1,36 @@
 //Michael Paul
 //
 StringList allcelebs;
-StringList celeb1;
-StringList celeb2;
-StringList celeb3;
+StringList c1;
+StringList c2;
+StringList c3;
+StringList c4;
+StringList c5;
+StringList c6;
+StringList c7;
+StringList c8;
+StringList c9;
+StringList c10;
+StringList c11;
+StringList c12;
+StringList c13;
+StringList c14;
+StringList c15;
+StringList c16;
+StringList c17;
+StringList c18;
+StringList c19;
+StringList c20;
+StringList c21;
+StringList c22;
+StringList c23;
+StringList c24;
+StringList c25;
+StringList c26;
+StringList c27;
+StringList c28;
+StringList c29;
+StringList c30;
 String scene="Start Screen";
 String startceleb="";
 String endceleb="";
@@ -11,12 +38,45 @@ int scenenumber=0;
 void setup(){
   size(800,800);
   allcelebs=new StringList("celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9","celeb10","celeb11","celeb12","celeb13","celeb14","celeb15","celeb16","celeb17","celeb18","celeb19","celeb20","celeb21","celeb22","celeb23","celeb24","celeb25","celeb26","celeb27","celeb28","celeb29","celeb30");
-  celeb1=new StringList("celeb2","celeb3");
-  celeb2=new StringList("celeb1","celeb3");
-  celeb3=new StringList("celeb1","celeb");
+  c1=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c2=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c3=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c4=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c5=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c6=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c7=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c8=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c9=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c10=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c11=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c12=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c13=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c14=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c15=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c16=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c17=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c18=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c19=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c20=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c21=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c22=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c23=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c24=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c25=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c26=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c27=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c28=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c29=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
+  c30=new StringList("celeb2","celeb3","celeb4","celeb9","celeb23","celeb30","celeb45","celeb45","celeb2");
   textAlign(CENTER,CENTER);
   rectMode(CENTER);
 }
+
+
+
+
+
+
 
 void draw(){
   background(0);
@@ -164,6 +224,11 @@ void draw(){
       scene="Start Screen 2";
     }
   }
+  
+  
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  
+  
   else if (scene=="Start Screen 2"){
     background(0,255,0);
     int x=200;//size that the names will be separated
@@ -302,60 +367,47 @@ void draw(){
       startgame();
     }
   }
+  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  celeblists("celeb1",c1,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",34,13,35);
+  celeblists("celeb2",c2,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",255,0,24);
+  celeblists("celeb3",c3,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",67,135,75);
+  celeblists("celeb4",c4,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",25,35,68);
+  celeblists("celeb5",c5,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",0,0,0);
+  celeblists("celeb6",c6,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",0,24,0);
+  celeblists("celeb7",c7,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",79,0,46);
+  celeblists("celeb8",c8,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",0,0,57);
+  celeblists("celeb9",c9,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",26,67,0);
+  celeblists("celeb10",c10,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",24,64,86);
+  celeblists("celeb11",c11,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",36,213,53);
+  celeblists("celeb12",c12,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",123,123,123);
+  celeblists("celeb13",c13,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",213,213,213);
+  celeblists("celeb14",c14,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",4,5,7);
+  celeblists("celeb15",c15,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9",90,53,14);
+  /*celeblists("celeb16",c16,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb17",c17,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb18",c18,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb19",c19,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb20",c20,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb21",c21,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb22",c22,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb23",c23,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb24",c24,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb25",c25,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb26",c26,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb27",c27,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb28",c28,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb29",c29,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");
+  celeblists("celeb30",c30,"celeb1","celeb2","celeb3","celeb4","celeb5","celeb6","celeb7","celeb8","celeb9");*/
+  //celeblists("celeb1",c1,"tr","hs","ath","aher","rrr","rttr","etje","ejtjet","ddyts");
   
-  
-  /*if (scene=="Start Screen"){
-    background(255,0,0);
-    int x=200;//size that the names will be separated
-    int y=100;
-    for (int a=0;a<30;a=a+1){
-      fill(255,255,255);
-      text("SELECT THE CELEBRITY TO START WITH",width/2,50);
-      rect(x,y,50,15);
-      fill(0,0,0);
-      String item=allcelebs.get(a);
-      text(item,x,y);
-      fill(255,255,255);
-      x=x+201;
-      if (x>width){
-        x=200;
-        y=y+70;
-      }
-    }
-    if (mouseX>180 && mouseX<220 && mouseY>95 && mouseY<105 && scenenumber==1){
-      startceleb="celeb1";
-      scene="Start Screen 2";
-    }
-    else if (mouseX>380 && mouseX<420 && mouseY>95 && mouseY<105 && scenenumber==1){
-      startceleb="celeb2";
-      scene="Start Screen 2";
-    }
-    else if (mouseX>580 && mouseX<620 && mouseY>95 && mouseY<105 && scenenumber==1){
-      startceleb="celeb3";
-      scene="Start Screen 2";
-    }
-    else if (mouseX>180 && mouseX<220 && mouseY>165 && mouseY<175 && scenenumber==1){
-      startceleb="celeb4";
-      scene="Start Screen 2";
-    }
-    else if (mouseX>380 && mouseX<420 && mouseY>165 && mouseY<175 && scenenumber==1){
-      startceleb="celeb5";
-      scene="Start Screen 2";
-    }
-    else if (mouseX>580 && mouseX<620 && mouseY>165 && mouseY<175 && scenenumber==1){
-      startceleb="celeb6";
-      scene="Start Screen 2";
-    }
-    else if (mouseX>180 && mouseX<220 && mouseY>235 && mouseY<245 && scenenumber==1){
-      startceleb="celeb7";
-      scene="Start Screen 2";
-    }
-    else if (mouseX>380 && mouseX<420 && mouseY>235 && mouseY<245 && scenenumber==1){
-      startceleb="celeb8";
-      scene="Start Screen 2";
-    }
-  }*/
+
+
+
 }
+
+
+
+
 void mousePressed(){
   if (scene=="Start Screen"){
     scenenumber=1;
@@ -364,6 +416,9 @@ void mousePressed(){
     scenenumber=2;
   }
 }
+
+
+
 
 void startgame(){
   if (startceleb=="celeb1"){
@@ -459,18 +514,18 @@ void startgame(){
   
 }
 
-void celeblists(String whichceleb,String whichlist, String celeb1, String celeb2,String celeb3,String celeb4, String celeb4,String celeb6,String celeb7,String celeb8, String celeb9){
-  if (scene==whichceleb){
-    background(255,0,0);
+void celeblists(String celeb,StringList whichlist, String celeb1, String celeb2,String celeb3,String celeb4, String celeb5,String celeb6,String celeb7,String celeb8, String celeb9,int r,int g,int b){
+  if (scene==celeb){
+    background(r,g,b);
     int x=200;//size that the names will be separated
     int y=height/2;
     for (int a=0;a<9;a=a+1){
       fill(255,255,255);
       //imageofceleb;
-      text("celebname",width/2,50);
-      rect(x,y,50,15);
+      text(celeb,width/2,50);
+      rect(x,y,50,15); 
       fill(0,0,0);
-      String item=whichlist".get(a);
+      String item=whichlist.get(a);
       text(item,x,y);
       fill(255,255,255);
       x=x+201;
@@ -478,6 +533,33 @@ void celeblists(String whichceleb,String whichlist, String celeb1, String celeb2
         x=200;
         y=y+70;
       }
+    }
+    if (mouseX>180 && mouseX<220 && mouseY>395 && mouseY<405 && mousePressed){
+      scene=celeb1;
+    }
+    else if (mouseX>380 && mouseX<420 && mouseY>395 && mouseY<405 && mousePressed){
+      scene=celeb2;
+    }
+    else if (mouseX>580 && mouseX<620 && mouseY>395 && mouseY<405 && mousePressed){
+      scene=celeb3;
+    }
+    else if (mouseX>180 && mouseX<220 && mouseY>465 && mouseY<475 && mousePressed){
+      scene=celeb4;
+    }
+    else if (mouseX>380 && mouseX<420 && mouseY>465 && mouseY<475 && mousePressed){
+      scene=celeb5;
+    }
+    else if (mouseX>580 && mouseX<620 && mouseY>465 && mouseY<475 && mousePressed){
+      scene=celeb6;
+    }
+    else if (mouseX>180 && mouseX<220 && mouseY>535 && mouseY<545 && mousePressed){
+      scene=celeb7;
+    }
+    else if (mouseX>380 && mouseX<420 && mouseY>535 && mouseY<545 && mousePressed){
+      scene=celeb8;
+    }
+    else if (mouseX>580 && mouseX<620 && mouseY>535 && mouseY<545 && mousePressed){
+      scene=celeb9;
     }
   }
 }
